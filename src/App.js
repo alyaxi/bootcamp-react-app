@@ -8,7 +8,7 @@ function App() {
      <h1>Hello Syed Ali Uz Zaman</h1>
      <p>This is from Pakistan</p>
      <h1>
-       Hello world
+       Hello Pakistan
      </h1>
     </div>
   );
