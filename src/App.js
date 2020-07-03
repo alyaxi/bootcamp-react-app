@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 // import logo from './logo.svg';
 import './App.css';
-
+import {Message} from './Message.js';
 function App() {
-  let [Count, setCount] = useState(0)
+  let [count, setcount] = useState(0)
   return (
     <div>
-      <h3>Value of counter vairable is {Count} </h3>
+      <Message counter={count} />
       <br />
-      <button onClick={()=>setCount(++Count)}>Update Counter</button>
+      <button onClick={()=>setcount(++count)}>Update Counter</button>
     </div>
   );
 }
